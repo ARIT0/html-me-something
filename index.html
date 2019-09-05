@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Major Vitamins</title>   
+        <title>The Major Vitamins</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">  
     </head>
-    <body>
-        <header>
+    <body class="page">
+        <header class="header">
             <h1>The Major Vitamins</h1>
             <nav>
-                <ul>
+                <ul class="types">
                     <li>
                         <a href="#A">Vitamin A</a>
                     </li>
@@ -30,12 +31,12 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="page">
             <article>
                 <section>
                     <a id="A"></a>
                     <h2>Vitamin A</h2>
-                    <p>
+                    <p id="info">
                         Vitamin A is key for good vision, a healthy immune system, and cell growth. 
                         It is a collective term for a number of molecules that include retinoids 
                         <i>retinol</i> (the transport form of vitamin A),
@@ -46,44 +47,52 @@
                          molecules are ultimately derived from dietary beta-carotene, present in such 
                         foods as carrots, leafy vegetables, and egg yolk.                       
                     </p>
-                    <div>
+                    <div class="symptoms">
                         <p>
-                            <strong>Deficiency Symptoms:</strong> Night blindness; dry skin
+                            <strong>Deficiency Symptoms:</strong>
                         </p>
-                        <figure>
+                        <p> 
+                            Night blindness; dry skin
+                        </p>
+                        <figure class="label">
                                 <img src="images/Dry-Skin.jpg" width="240" height="270" alt="Dry skin">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                     Dry skin is a symptom of Vitamin A deficiency.
                             </figcaption>
                     </div>
-                    <div>
+                    <div class="sources">
                         <p>
-                            <strong>Food Sources:</strong> Carrots; leafy vegetables; egg yolk
+                            <strong>Food Sources:</strong>
                         </p>
-                        <figure>
+                        <p>
+                            Carrots; leafy vegetables; egg yolk
+                        </p>
+                        <figure class="label">
                             <img src="images/VitA-carrots.jpg" width="240" height="270" alt="Carrots are a plant based food that contains vitamin A.">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                 Carrots are a plant based food that contains vitamin A.
                             </figcaption>
                     </div> 
-                    <div>
+                    <div class="recipe">
                         <p>
                             <strong>Recipe:</strong>
+                        </p>
+                        <p>
                             <a href="http://www.eatingwell.com/recipe/249575/yukon-gold-sweet-potato-mash/">
                             Yukon Gold &amp; Sweet Potato Mash
                             </a> 
                         </p>
-                        <p>  
+                        <figure>  
                             <img src="images/yukon-gold.jpg" width="240" height="270" alt="Yukon Gold and Sweet Potato Mash.">
-                        </p>
+                        </figure>
                     </div>   
                 </section>
                 <section>
                     <a id="B"></a>
                     <h2>Vitamin B Complex</h2>
-                    <p>
+                    <p id="info">
                         Vitamin B complex is composed of eight B vitamins:
                         B1 (thiamine): Thiamine plays an essential role in metabolism by helping convert nutrients into energy. The richest food sources include pork, sunflower seeds and wheat germ.
                         B2 (riboflavin): Riboflavin helps convert food into energy and also acts as an antioxidant. Foods highest in riboflavin include organ meats, beef and mushrooms.
@@ -96,84 +105,103 @@
                         
                         The major vitamins from the B complex are B1 (thiamine), B2 (riboflavin), B6 (pyridoxine), and B12 (cobalamin) which can all be found in liver.
                     </p>
-                    <div>
+                    <div class="symptoms">
                         <p>
-                            <strong>Deficiency Symptoms:</strong> convulsions; Pernicious anemia; Glossitis; cheilosis
+                            <strong>Deficiency Symptoms:</strong>
                         </p>
-                        <figure>
-                            <iframe src="https://giphy.com/embed/xT8qBq60IhnS5KCScM" width="380" height="317" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        <p>
+                            Convulsions; Pernicious anemia; Glossitis; Cheilosis
+                        </p>
+                        <figure class="label">
+                            <iframe src="https://giphy.com/embed/xT8qBq60IhnS5KCScM" width="380" height="400" class="giphy-embed" allowFullScreen></iframe>
                         </figure>
+                            <figcaption class="label">
+                                This is not an accurate depiction of convulsions.
+                            </figcaption>
                     </div>
-                    <div>
+                    <div class="sources">
                         <p>
-                            <strong>Food Sources:</strong> Liver; Milk; Corn; Wheat; Yeast; Eggs; Tomatoes
+                            <strong>Food Sources:</strong>
                         </p>
-                        <figure>
+                        <p>
+                            Liver; Milk; Corn; Wheat; Yeast; Eggs; Tomatoes
+                        </p>
+                        <figure class="label">
                             <img src="images/B-food-sources.jpg" width="380" height="317" alt="Liver, milk, corn, and eggs are some of the foods that contains vitamin B.">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                 Liver, milk, corn, and eggs are some of the foods that contains vitamin B.
                             </figcaption>
                     </div> 
-                    <div>
+                    <div class="recipe">
                         <p>
                             <strong>Recipe:</strong>
+                        </p>
+                        <p>
                             <a href="https://sweetpeasandsaffron.com/kale-barley-and-feta-salad-with-a-honey-lemon-vinaigrette/">
                             Kale Barley Salad with Feta and a Honey-Lemon Vinaigrette
                             </a>
                         </p>
-                        <p>  
-                            <iframe width="380" height="317" src="https://www.youtube.com/embed/ykEOdl8ECYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </p> 
+                        <figure>
+                            <iframe width="1366" height="900" src="https://www.youtube.com/embed/ykEOdl8ECYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </figure> 
                     </div>  
                 </section>
                 <section>
-                    <a name="#Biotin"></a>
+                    <a id="Biotin"></a>
                     <h2>Biotin</h2>
-                    <p>
+                    <p id="info">
                         Biotin is a water-soluble B-vitamin that helps your body convert food into energy.
                         It is especially important during pregnancy and breastfeeding. In addition, biotin
                         is important for the health of your hair, skin and nails.
                         Biotin is found in egg yolk, liver, and tomatoes.
                     </p>
-                    <div>
+                    <div class="symptoms">
                         <p>
-                            <strong>Deficiency Symptoms:</strong> Dermatitis; enteritis
+                            <strong>Deficiency Symptoms:</strong>
                         </p>
-                        <figure>
+                        <p>
+                            Dermatitis; enteritis
+                        </p>
+                        <figure class="label">
                             <img src="images/biotin-dermatitis.jpg" width="380" height="317" alt="Dermatitis is a skin irritation.">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                 Dermatitis is a skin irritation.
                             </figcaption>
                     </div>
-                    <div>
+                    <div class="sources">
                         <p>
-                            <strong>Food Sources:</strong> Egg; Liver; Tomatoes
+                            <strong>Food Sources:</strong>
                         </p>
-                        <figure>
+                        <p>
+                            Egg; Liver; Tomatoes
+                        </p>
+                        <figure class="label">
                             <img src="images/biotin-food-source.jpg" width="380" height="240" alt="Liver, milk, corn, and eggs are some of the foods that contains vitamin B.">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                 Liver, milk, corn, and eggs are some of the foods that contains vitamin B.
-                        </figcaption>
+                            </figcaption>
                     </div> 
-                    <div>
+                    <div class="recipe">
                         <p>
                             <strong>Recipe:</strong>
+                        </p>
+                        <p>
                             <a href="https://morejuicepress.com/recipes/banana-almond-soymilk-smoothie/">
                             Banana Almond Soymilk Smoothie
                             </a>
                         </p>
-                        <p>  
+                        <figure>  
                             <img src="images/Biotin-smoothie.jpg" width="380" height="240" alt="This smoothie is rich in Biotin and will boost energy.">
-                        </p> 
+                        </figure> 
                     </div>  
                 </section>
                 <section>
                     <a id="C"></a>
                     <h2>Vitamin C</h2>
-                    <p>
+                    <p id="info">
                         Vitamin C is necessary for the growth, development and repair of all body tissues.
                             It's involved in many body functions, including formation of collagen, absorption of iron,
                             the immune system, wound healing, and the maintenance of cartilage, bones, and teeth.
@@ -181,43 +209,52 @@
                             It may afford protection against some of the diseases that may be caused by free radicals. Good sources of
                             vitamin C include citrus fruits, and green leafy vegetables.
                     </p>
-                    <div>
+                    <div class="symptoms">
                         <p>
-                            <strong>Deficiency Symptoms:</strong> Survy
+                            <strong>Deficiency Symptoms:</strong>
                         </p>
-                        <figure>
+                        <p>
+                            Survy
+                        </p>
+                        <figure class="label">
                             <img src="images/Scurvy.gif" width="270" height="210" alt="Scury is indicative of vitamin C.">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                 Scurvy is indicative of vitamin C.
                             </figcaption>
                     </div>
+                    <div class="sources">
                         <p>
-                            <strong>Food Sources:</strong> Citrus fruits; Green leafy vegetables
+                            <strong>Food Sources:</strong>
                         </p>
-                        <figure>
+                        <p>
+                            Citrus fruits; Green leafy vegetables
+                        </p>
+                        <figure class="label">
                             <img src="images/VitC-citfruit.jpg" width="270" height="210" alt="Citrus fruits contain Vitamin C.">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                 Citrus fruits such as oranges, limes, and grapefruits.
                             </figcaption>
                     </div>
-                    <div>
+                    <div class="recipe">
                         <p>
                             <strong>Recipe:</strong>
+                        </p>
+                        <p>
                             <a href="http://www.eatingwell.com/recipe/250222/sweet-potato-black-bean-chili/">
                             Sweet Potato &amp; Black Bean Chili
                             </a>
                         </p>
-                        <p>  
+                        <figure>  
                             <img src="images/Sweet-Potato-Chili.jpg" width="240" height="270" alt="Sweet Potato and Black Bean Chili">
-                        </p> 
+                        </figure> 
                     </div>  
                 </section>
                 <section>
                     <a id="D"></a>
                     <h2>Vitamin D</h2>
-                    <p>
+                    <p id="info">
                         Vitamin D is produced by the skin under the influence of ultraviolet light, but usually it is not produced in sufficient 
                         amounts for all of the body's needs. Vitamin D is needed for intestinal absorbtion of calcium and phosphate. Vitamin D has
                          other roles in the body, including modulation of cell growth, neuromuscular and immune function, and reduction of inflammation. 
@@ -225,45 +262,53 @@
                          exposed to the sun. Can be found in fish liver.
                        
                     </p>
-                    <div>
+                    <div class="symptoms">
                         <p>
-                            <strong>Deficiency Symptoms:</strong> Rickets; osteomalacia
+                            <strong>Deficiency Symptoms:</strong>
                         </p>
-                        <figure>
+                        <p>
+                            Rickets; osteomalacia
+                        </p>
+                        <figure class="label">
                             <img src="images/rickets.jpg" width="370" height="220" alt="Rickets warps bones.">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                 Rickets warps bones in the legs.
                             </figcaption>
                     </div>
-                    <div>
+                    <div class="sources">
                         <p>
-                            <strong>Food Sources:</strong> Figh liver
+                            <strong>Food Sources:</strong>
                         </p>
-                        <figure>
+                        <p>
+                            Fish liver
+                        </p>
+                        <figure class="label">
                             <img src="images/VitD-fishliver.jpg" width="270" height="210" alt="Fish liver is one of the only food sources that contain Vitamin D, so supplementation is necessary.">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                 Fish liver is one of the only food sources that contain Vitamin D, so supplementation is necessary.
                             </figcaption>
                     </div>
-                    <div>
+                    <div class="recipe">
                         <p>
                             <strong>Recipe:</strong>
+                        </p>
+                        <p>
                             <a href="https://www.marthastewart.com/903313/flambeed-cod-liver">
                             Flambeed Cod Liver
                             </a>
                         </p>
-                        <p>  
+                        <figure>  
                             <video width="370" height="220" src="https://secure-cf-c.ooyala.com/54cHZuNDqNhQLHx86LQ9nV_7tc5LjGZt/DOcJ-FxaFrRg4gtDEwOjFmZzowODE7ok" controls></video>
-                        </p> 
+                        </figure> 
                     </div>
                     
                 </section>
                 <section>
                     <a id="E"></a>
                     <h2>Vitamin E</h2>
-                    <p>
+                    <p id="info">
                         Vitamin E has important antioxidant functions. Antioxidants protect cells from
                         the damaging effects of free radicals, which are molecules that contain an 
                         unshared electron. Free radicals damage cells and might contribute to the 
@@ -273,38 +318,46 @@
                         in milk, eggs, meat, and leafy vegetables.
                         
                     </p>
-                    <div>
+                    <div class="symptoms">
                         <p>
-                            <strong>Deficiency Symptoms:</strong> Nonhereditary Muscular Dystrophy
+                            <strong>Deficiency Symptoms:</strong>
                         </p>
-                        <figure>
+                        <p>
+                            Nonhereditary Muscular Dystrophy
+                        </p>
+                        <figure class="label">
                             <img src="images/muscular-dystrophy.jpg" width="370" height="220" alt="Non hereditary Muscular Dystrophy can cause muscle weakness.">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                 Non hereditary Muscular Dystrophy can cause muscle weakness.
                             </figcaption>
                     </div>
-                    <div>
+                    <div class="sources">
                         <p>
-                            <strong>Food Sourcess:</strong> Milk; Eggs; Meat; Leafy Vegetables
+                            <strong>Food Sources:</strong>
                         </p>
-                        <figure>
+                        <p>
+                            Milk; Eggs; Meat; Leafy Vegetables
+                        </p>
+                        <figure class="label">
                             <img src="images/VitE-leafyveg.jpg" width="370" height="220" alt="Leafy vegetables contain vitamin E.">
                         </figure>
-                            <figcaption>
+                            <figcaption class="label">
                                 Leafy vegetables contain vitamin E.
                             </figcaption>
                     </div>
-                    <div>
+                    <div class="recipe">
                         <p>
                             <strong>Recipe:</strong>
+                        </p>
+                        <p>
                             <a href="https://www.eatthismuch.com/recipe/nutrition/fried-mozzarella-balls,45429/">
                             Fried Mozzarella Balls
                             </a>
                         </p>
-                        <p>  
+                        <figure>  
                             <img src="images/Fried-Mozza-Balls.jpg" width="370" height="220" alt="Fried Mozzarella Balls.">
-                        </p>
+                        </figure>
                     </div>
                     
                 </section>
